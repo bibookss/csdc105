@@ -5,190 +5,211 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
-    <img src="./assets/PEREZ_2X2.png" alt="My picture" width="250px">
+    <div class="container">
+        <div class="profile">
+            <div class="profile_container">
+                <div class="profile_profileImg">
+                    <img src="./assets/profile.png" alt="Albert Perez" width="250px">
+                </div>
+                <div>
+                    <h1 class="profile_name">
+                        Albert Elezer B. Perez
+                    </h1>
+                    <p class="profile_title">Backend Engineer</p>
+                    <p class="profile_description">
+                        <i>   
+                            A curious and analytical computer science student with 
+                            proven skills in backend development who excels at 
+                            problem solving and communication, possesing excellent 
+                            time management and leadership skills.
+                        </i>
+                    </p>
 
-    <h1>Albert Elezer B. Perez</h1>
-    <h3>Backend Engineer</h2>
-    <p>A curious and analytical computer science student with proven skills in backend development who excels at problem solving and communication, possesing excellent time management and leadership skills.</p>
-    
-    <h2>Contact</h2>
-    <hr>
-    <h4>Phone</h4>
-    <p>+63 (918) 338 7512</p>
+                    <div class="buttons">
+                        <a href="./form.html" class="contactBtn"><b>Contact Me</b></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>  
 
-    <h4>Email</h4>
-    <p>albperez.home@gmail.com</p>
+        <!-- expertise, character references, education-->
+        <div class="group1">
+            <div class="skills">
+                <h3 class="title">Expertise</h3>
+                <ul class="skill_list">
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>Docker</li>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </div>
 
-    <h4>Address</h4>
-    <p>Iglesia St. Ext., Daet, Camarines Norte</p>
+            <div class="education">
+                <h3 class="title">Education</h3>
+                <div class="edu_item">
+                    <p class="item_preTitle">2021 - Present</p>
+                    <h4 class="item_title">BS Computer Science</h4>
+                    <p class="item_subTitle">Ateneo de Naga University</p>
+                </div>
 
-    <h4>LinkedIn</h4>
-    <p>https://www.linkedin.com/in/albuperez</p>
+                <div class="edu_item">
+                    <p class="item_preTitle">2019 - 2021</p>
+                    <h4 class="item_title">STEM</h4>
+                    <p class="item_subTitle">Ateneo de Naga University</p>
+                </div>
 
-    <h4>Github</h4>
-    <p>https://github.com/bibookss</p>
+            </div>
 
-    <h2>Expertise</h2>
-    <hr>
-    <table>
-        <th> 
-            Tech Stacks
-        </th>
-        <tr>
-            <td>MongoDB</td>
-            <td>
-                <progress value="70" max="100"></progress>
-            </td>
-        </tr>
-        <tr>
-            <td>NodeJS</td>
-            <td>
-                <progress value="90" max="100"></progress>
-            </td>
-        </tr>
-        <tr>
-            <td>ExpressJS</td>
-            <td>
-                <progress value="70" max="100"></progress>
-            </td>
-        </tr>
-        <tr>
-            <td>ParseJS</td>
-            <td>
-                <progress value="60" max="100"></progress>
-            </td>
-        </tr>
-        <tr>
-            <td>VueJS</td>
-            <td>
-                <progress value="60" max="100"></progress>
-            </td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>
-                <progress  value="90" max="100"></progress>
-            </td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>
-                <progress value="80" max="100"></progress>
-            </td>
-        </tr>
-        <tr>
-            <td>C++</td>
-            <td>
-                <progress value="90" max="100"></progress>
-            </td>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td>
-                <progress value="85" max="100"></progress>
-            </td>
-        </tr>
-    </table>
+            <div class="references">
+                <h3 class="title">Reference</h3>
+                <div class="ref_item">
+                    <h4 class="ref_name">Rhaymart Manchus</h4>
+                    <p class="ref_description">
+                        Mr. Manchus is the CEO of CodeArmy.dev and he is...
+                    </p>
+                </div>
+                <div class="ref_item">
+                    <h4 class="ref_name">Joshua Martinez</h4>
+                    <p class="ref_description">
+                        Mr. Martinez is the Dean at the College of Computer Studies 
+                        at Ateneo de Naga University
+                    </p>
+                </div>
+            </div>
 
-    <h2>Interests</h2>
-    <hr>
-    <ol>
-        <li>Competitive programming</li>
-        <li>Backend development</li>
-        <li>DevOps</li>
-        <li>Cybersecurity</li>
-        <li>Data analytics</li>
-    </ol>
+            <div class="interests">
+                <h3 class="title">Interests</h3>
+                <ol class="interests_list">
+                    <li>Competitive programming</li>
+                    <li>Backend development</li>
+                    <li>DevOps</li>
+                    <li>Cybersecurity</li>
+                    <li>Data analytics</li>
+                </ol>
+            </div>
+            
+        </div>
 
-    <h2>Experience</h2>
-    <hr>
+        <!-- experience, awards, interests-->
+        <div class="group2"> 
+            <div class="exp">
+                <h3 class="title">Experience</h3>
+                <div class="exp_item">
+                    <p class="item_preTitle">2022 - Present</p>
+                    <h4 class="item_title">CodeArmy.dev</h4>
+                    <p class="item_subTitle">Backend Engineer</p>
+                    <p class="exp_description">
+                        Responsible for designing  the database schema,
+                        implemented a REST API as the backend service,
+                        used MySQL with Sequelize as an ORM for the database,
+                        experienced deploying through Docker
+                    </p>
+                </div>
+                <div class="exp_item">
+                    <p class="item_preTitle">2022</p>
+                    <h4 class="item_title">Ateneo de Naga University</h4>
+                    <p class="item_subTitle">Backend Team Member</p>
+                    <p class="exp_description">
+                        Rewrote the backend service of CodeC using ParseJS, 
+                        ExpressJS, and MonggoDB, implemented Google Oauth for registering and logging
+                        in the web application, implemented the backend service for updating user profile
 
-    <ul>
-        <li>
-            <h4>Aug 2022 - <b>Present</b></h4>
-            <h4>CodeArmy.dev</h4>
-            <h3>Backend Engineer</h3>
-            <ul>
-                <li>Responsible for designing the database schema</li>
-                <li>Implemented a REST API for an application's backend service</li>
-            </ul>
-        </li>
-
-        <li>
-            <h4>May 2022  - Aug 2022</h4>
-            <h4>College of Computer Studies, Ateneo de Naga University</h4>
-            <h3>Backend Developer</h3>
-            <ul>
-                <li>Rewrote the backend service of CodeC using ParseJS, Express, and MongdoDB</li>
-                <li>Implemented Google Oauth for registering and logging in the web application</li>
-                <li>Implemented a REST API for updating a user's profile details</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h2>Career Objectives</h2>
-    <hr>
-    <h3>Mastery</h3>
-    <p>Having been already introduced to the aforementioned tech stacks, I intend to master each in terms of  its demand in the industry to:</p>
-    <ul>
-        <li>implement effective and efficient REST APIs using NodeJS, Express, and MongoDB</li>
-        <li>implement advanced authentication routines in NodeJS and Express</li>
-        <li>analyze big data and make accurate predictions using Python and its robust libraries</li>
-    </ul>
-
-    <h3>Relevant Knowledge</h3>
-    <p>To further enhance my value to the company, I intend to explore the domains of:</p>
-    <ul>
-        <li>data science and machine learning</li>
-        <li>cybersecurity</li>
-        <li>DevOps</li>
-        <li>software egnineering</li>
-    </ul>
-
-    <h3>Career Path</h3>
-    <p>With my expertise and my goals above, Im aspiring to be:</p>
-    <ul>
-        <li>data scientist</li>
-        <li>AI engineer</li>
-        <li>backend engineer</li>
-        <li>cybersecurity egnineer</li>
-    </ul>
-
-    <h2>Education</h2>
-    <hr>
-    <ul>
-        <li>
-            <h3>BS in Computer Science</h3>
-            <h4>Ateneo de Naga University</h4>
-            <p>07/2021 - <b>Present</b></p>
-        </li>
-        <li>
-            <h3>STEM - Senior Highschool</h3>
-            <h4>Ateneo de Naga University</h4>
-            <p>06/2019 - 7/2021</p>
-        </li>
-    </ul>
-
-    <h2>References</h2>
-    <hr>
-    <ul>
-        <li>
-            Rhaymary Manchus
-            <p><i>CodeArmy.dev</i></p>
-            <p>093213213213</p>
-        </li>
-        <li>
-            Joseph Valeros
-            <p><i>CodeAmry.dev</i></p>
-            <p>0932131290</p>
-        </li>
-    </ul>
-    <hr>
-    <h2>   
-        <a href="./form.html">Hit me up!</a>
-    </h2>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="awards">
+                <h3 class="title">Awards</h3>
+                <div class="awards_item">
+                    <p class="item_preTitle">2021 - Present</p>
+                    <h4 class="item_title">President's Lister</p>
+                    <p class="awards_description">
+                        Consistently receieves the President's Lister award
+                    </p>
+                </div>
+                <div class="awards_item">
+                    <p class="item_preTitle">2021 - Present</p>
+                    <h4 class="item_title">DOST Scholar</p>
+                    <p class="awards_description">
+                        Awarded with the DOST-SEI scholarship under the Merit Program
+                    </p>
+                </div>
+                <div class="awards_item">
+                    <p class="item_preTitle">2021</p>
+                    <h4 class="item_title">Second Honors</p>
+                    <p class="awards_description">
+                        Graduated senior high school at the Ateneo de Naga Univeristy under
+                        the Science, Technology, Engineering, and Mathematics Program 
+                    </p>
+                </div>
+                <div class="awards_item">
+                    <p class="item_preTitle">2019</p>
+                    <h4 class="item_title">Valedictorian</p>
+                    <p class="awards_description">
+                        Graduated junior high school at Mabini Colleges, Inc. as 
+                        batch valedictorian
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- contacts -->
+        <div class="group3">
+            <div class="contact">
+                <h3 class="title">Contacts</h3>
+                <div class="contact_info">
+                    <p class="contact_description">
+                        Daet, Camarines Norte
+                    </p>
+                    <p class="contact_description">
+                        +63 918 338 7512
+                    </p>
+                    <p class="contact_description">
+                        albperez@gbox.adnu.edu.ph
+                    </p>
+                </div>
+            </div>
+            
+            <div class="socials">
+                <h3 class="title">Socials</h3>
+                <p class="social_items">
+                    <table>
+                        <th></th>
+                        <tr>
+                            <td>
+                                <a href="https://www.linkedin.com/in/albuperez/" target="_blank">
+                                    <img src="./assets/linkedin.png" width="30px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://codeforces.com/profile/0paline" target="_blank">
+                                    <img src="./assets/codeforces.png" width="30px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://github.com/bibookss/" target="_blank">
+                                    <img src="./assets/github.png" width="30px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://fb.com/bibookss" target="_blank">
+                                    <img src="./assets/facebook.png" width="30px" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
